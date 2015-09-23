@@ -14,10 +14,10 @@ for(var i = 0; i < 20; i++){
 
 	stroke(255, 255, 255);
 	noFill();
-	ellipse(320, 200, i * 40 + 15, i * 40 + 15);
+	ellipse(320, 200, i * 40 + 10, i * 40 + 10);
 
 	stroke (0, 0, 0);
 	noFill();
-	ellipse (320, 200, i * 40 + 30, i * 40 + 30);
+	ellipse (320, 200, i * 40 + 25, i * 40 + 25);
 }
 }
