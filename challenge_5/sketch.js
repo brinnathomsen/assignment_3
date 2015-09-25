@@ -1,7 +1,4 @@
 
-
-
-
 var ballX = 200;
 var ballY = 100;
 var ballSpeedX = 3;
