@@ -5,7 +5,7 @@ var ballSpeedX = 3;
 var ballSpeedY = 3;
 
 function setup() {
-	createCanvas(640, 360);
+	createCanvas(640, 480);
 }
 
 function draw() {
@@ -30,8 +30,7 @@ if (mouseY > ballY) {
 
 
 
-	//////////////////////////////
-	// draw
+	// draw ball
 
 
 

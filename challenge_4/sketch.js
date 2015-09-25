@@ -12,7 +12,7 @@ var ballSpeedX2 = 5;
 var ballSpeedY2 = 5;
 
 function setup() {
-	createCanvas(640, 360);
+	createCanvas(640, 480);
 }
 
 function draw() {

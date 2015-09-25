@@ -1,11 +1,7 @@
 
 
-
-
-
-
 function setup() {
-	createCanvas(640, 360);
+	createCanvas(640, 480);
 }
 
 function draw() {
@@ -30,34 +26,34 @@ for(var g = 0; g < 10; g++){
 colorMode(RGB, 255, 255, 255, 1);
 if (576 < mouseX) {
 	fill(250, 0, 0, .4);
-	rect(576, 0, 64, 360);
+	rect(576, 0, 64, 480);
 } else if (512 < mouseX) {
 	fill(250, 0, 0, .4);
-	rect(512, 0, 64, 360);
+	rect(512, 0, 64, 480);
 } else if (448 < mouseX) {
 		fill(250, 0, 0, .4);
-	rect(448, 0, 64, 360);
+	rect(448, 0, 64, 480);
 } else if (384 < mouseX) {
 		fill(250, 0, 0, .4);
-	rect(384, 0, 64, 360);
+	rect(384, 0, 64, 480);
 } else if (320 < mouseX) {
 		fill(250, 0, 0, .4);
-	rect(320, 0, 64, 360);
+	rect(320, 0, 64, 480);
 } else if (256 < mouseX) {
 		fill(250, 0, 0, .4);
-	rect(256, 0, 64, 360);
+	rect(256, 0, 64, 480);
 } else if (192 < mouseX) {
 		fill(250, 0, 0, .4);
-	rect(192, 0, 64, 360);
+	rect(192, 0, 64, 480);
 } else if (128 < mouseX) {
 		fill(250, 0, 0, .4);
-	rect(128, 0, 64, 360);
+	rect(128, 0, 64, 480);
 } else if (64 < mouseX) {
 		fill(250, 0, 0, .4);
-	rect(64, 0, 64, 360);
+	rect(64, 0, 64, 480);
 } else if (0 < mouseX) {
 		fill(250, 0, 0, .4);
-	rect(0, 0, 64, 360);
+	rect(0, 0, 64, 480);
 }
 
 

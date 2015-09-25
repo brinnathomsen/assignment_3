@@ -1,6 +1,6 @@
 function setup() {
 	// create a place to draw
-	createCanvas(640, 360);
+	createCanvas(640, 480);
 	noStroke();
 	noLoop();
 }
@@ -14,7 +14,7 @@ function draw() {
 	for(var i = 0; i < 10; i++){
 		stroke(200, 10, 83);
 		fill(330, 100, i * 10);
-		rect(i * 60 + 25, 180, 50, 50);
+		rect(i * 60 + 25, 220, 50, 50);
 	}
 
 }
